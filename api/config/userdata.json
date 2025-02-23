@@ -1,0 +1,331 @@
+{
+  "users": [
+    {
+      "id": 16,
+      "firstName": "Josh",
+      "lastName": "Schmitz",
+      "maidenName": "",
+      "age": 35,
+      "gender": "male",
+      "email": "josh.schmitz1@gmail.com",
+      "phone": "+1 218-491-5622",
+      "username": "joshs",
+      "password": "$2a$10$pppFiAmk6U6IW7nF3V73JOxYnf5lz65CbXqRqQH5U7kfBhm.DrIXW",
+      "birthDate": "1989-8-24",
+      "image": "https://dummyjson.com/icon/averyp/128",
+      "ip": "131.217.4.214",
+      "address": [
+        {
+          "type": "billing",
+          "address": "1125 First Street",
+          "city": "Columbus",
+          "state": "Iowa",
+          "stateCode": "IA",
+          "postalCode": "30973",
+          "coordinates": {
+            "lat": 12.789127,
+            "lng": 85.792598
+          },
+          "country": "United States"
+        },
+        {
+          "type": "shipping",
+          "address": "30408 Cimarron Trl",
+          "city": "Grand Rapids",
+          "state": "Minnesota",
+          "stateCode": "MN",
+          "postalCode": "55744",
+          "coordinates": {
+            "lat": 47.31733058510246,
+            "lng": -93.58624741450707
+          },
+          "country": "United States"
+        }
+      ],
+      "bank": [
+        {
+          "default": true,
+          "cardExpire": "04/27",
+          "cardNumber": "0961014686718571",
+          "cardType": "Carte Bancaire",
+          "currency": "USD",
+          "iban": "28JYZAY4KYT48YI8QW40PWXR"
+        }
+      ],
+      "company": {
+        "department": "Accounting",
+        "name": "Herzog Inc",
+        "title": "Database Administrator",
+        "address": {
+          "address": "183 Maple Street",
+          "city": "New York",
+          "state": "Rhode Island",
+          "stateCode": "RI",
+          "postalCode": "45238",
+          "coordinates": {
+            "lat": -53.318189,
+            "lng": 105.835271
+          },
+          "country": "United States"
+        }
+      },
+      "crypto": {
+        "coin": "Bitcoin",
+        "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+        "network": "Ethereum (ERC20)"
+      },
+      "role": "admin"
+    },
+    {
+      "id": 17,
+      "firstName": "Evelyn",
+      "lastName": "Sanchez",
+      "maidenName": "",
+      "age": 37,
+      "gender": "female",
+      "email": "evelyn.sanchez@x.dummyjson.com",
+      "phone": "+1 623-880-6871",
+      "username": "evelyns",
+      "password": "evelynspass",
+      "birthDate": "1987-10-13",
+      "image": "https://dummyjson.com/icon/evelyns/128",
+      "address": [
+        {
+          "type": "billing",
+          "address": "1170 Lincoln Street",
+          "city": "San Diego",
+          "state": "Wyoming",
+          "stateCode": "WY",
+          "postalCode": "43423",
+          "coordinates": {
+            "lat": -83.31484,
+            "lng": 11.768071
+          },
+          "country": "United States"
+        }
+      ],
+      "bank": [
+        {
+          "default": true,
+          "cardExpire": "04/29",
+          "cardNumber": "4557521697420096",
+          "cardType": "UnionPay",
+          "currency": "SEK",
+          "iban": "KN8XAPR2J5UB8AKDI1EVJ56R"
+        }
+      ],
+      "company": {
+        "department": "Support",
+        "name": "Predovic - Johns",
+        "title": "Chief Financial Officer",
+        "address": {
+          "address": "1802 Ninth Street",
+          "city": "San Diego",
+          "state": "Minnesota",
+          "stateCode": "MN",
+          "postalCode": "89416",
+          "coordinates": {
+            "lat": 29.034592,
+            "lng": -78.004598
+          },
+          "country": "United States"
+        }
+      },
+      "crypto": {
+        "coin": "Bitcoin",
+        "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+        "network": "Ethereum (ERC20)"
+      },
+      "role": "user"
+    },
+    {
+      "id": 18,
+      "firstName": "Logan",
+      "lastName": "Torres",
+      "maidenName": "",
+      "age": 31,
+      "gender": "male",
+      "email": "logan.torres@x.dummyjson.com",
+      "phone": "+81 507-434-8733",
+      "username": "logant",
+      "password": "logantpass",
+      "birthDate": "1993-10-26",
+      "image": "https://dummyjson.com/icon/logant/128",
+      "address": [
+        {
+          "type": "billing",
+          "address": "907 Seventh Street",
+          "city": "Columbus",
+          "state": "Arkansas",
+          "stateCode": "AR",
+          "postalCode": "78805",
+          "coordinates": {
+            "lat": -64.846516,
+            "lng": 174.775744
+          },
+          "country": "United States"
+        }
+      ],
+      "bank": [
+        {
+          "default": true,
+          "cardExpire": "05/26",
+          "cardNumber": "7884268130452098",
+          "cardType": "UnionPay",
+          "currency": "NZD",
+          "iban": "HZM7V9PYHPZBN72IDFPXGN8Q"
+        }
+      ],
+      "company": {
+        "department": "Training",
+        "name": "Jast - Nader",
+        "title": "Data Analyst",
+        "address": {
+          "address": "947 Main Street",
+          "city": "Denver",
+          "state": "Minnesota",
+          "stateCode": "MN",
+          "postalCode": "71896",
+          "coordinates": {
+            "lat": -24.654063,
+            "lng": -147.255268
+          },
+          "country": "United States"
+        }
+      },
+      "crypto": {
+        "coin": "Bitcoin",
+        "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+        "network": "Ethereum (ERC20)"
+      },
+      "role": "user"
+    },
+    {
+      "id": 19,
+      "firstName": "Abigail",
+      "lastName": "Rivera",
+      "maidenName": "",
+      "age": 28,
+      "gender": "female",
+      "email": "abigail.rivera@x.dummyjson.com",
+      "phone": "+91 228-363-7806",
+      "username": "abigailr",
+      "password": "abigailrpass",
+      "birthDate": "1996-10-11",
+      "image": "https://dummyjson.com/icon/abigailr/128",
+      "address": [
+        {
+          "type": "billing",
+          "address": "996 Oak Street",
+          "city": "Chicago",
+          "state": "New Mexico",
+          "stateCode": "NM",
+          "postalCode": "11407",
+          "coordinates": {
+            "lat": 44.321308,
+            "lng": -3.723903
+          },
+          "country": "United States"
+        }
+      ],
+      "bank": [
+        {
+          "default": true,
+          "cardExpire": "02/28",
+          "cardNumber": "4832361886407551",
+          "cardType": "RuPay",
+          "currency": "BRL",
+          "iban": "O02LHDNNFCVSM6D4H81DIQHE"
+        }
+      ],
+      "company": {
+        "department": "Human Resources",
+        "name": "Prohaska - Thiel",
+        "title": "Business Analyst",
+        "address": {
+          "address": "1402 Adams Street",
+          "city": "Austin",
+          "state": "Wisconsin",
+          "stateCode": "WI",
+          "postalCode": "51456",
+          "coordinates": {
+            "lat": 25.672938,
+            "lng": -76.54967
+          },
+          "country": "United States"
+        }
+      },
+      "crypto": {
+        "coin": "Bitcoin",
+        "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+        "network": "Ethereum (ERC20)"
+      },
+      "role": "user"
+    },
+    {
+      "id": 20,
+      "firstName": "Jackson",
+      "lastName": "Evans",
+      "maidenName": "",
+      "age": 34,
+      "gender": "male",
+      "email": "jackson.evans@x.dummyjson.com",
+      "phone": "+44 468-628-6686",
+      "username": "jacksone",
+      "password": "jacksonepass",
+      "birthDate": "1990-11-30",
+      "image": "https://dummyjson.com/icon/jacksone/128",
+      "address": [
+        {
+          "type": "billing",
+          "address": "1873 Main Street",
+          "city": "New York",
+          "state": "Arkansas",
+          "stateCode": "AR",
+          "postalCode": "26600",
+          "coordinates": {
+            "lat": 34.722451,
+            "lng": 63.448927
+          },
+          "country": "United States"
+        }
+      ],
+      "bank": [
+        {
+          "default": true,
+          "cardExpire": "04/26",
+          "cardNumber": "2109192842527801",
+          "cardType": "BC Card",
+          "currency": "EUR",
+          "iban": "TX26FO9B7YR2VHYDSJBE32AX"
+        }
+      ],
+      "company": {
+        "department": "Legal",
+        "name": "Kuhlman LLC",
+        "title": "Web Developer",
+        "address": {
+          "address": "1706 First Street",
+          "city": "Chicago",
+          "state": "Hawaii",
+          "stateCode": "HI",
+          "postalCode": "34725",
+          "coordinates": {
+            "lat": -80.416937,
+            "lng": -83.224516
+          },
+          "country": "United States"
+        }
+      },
+      "crypto": {
+        "coin": "Bitcoin",
+        "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+        "network": "Ethereum (ERC20)"
+      },
+      "role": "user"
+    }
+  ],
+  "total": 208,
+  "skip": 15,
+  "limit": 5
+}

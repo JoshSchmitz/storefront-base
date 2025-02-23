@@ -3,37 +3,66 @@ import bcrypt from 'bcryptjs';
 
 const userSchema = mongoose.Schema(
   {
-    name: {
-      type: String,
-      required: true,
-    },
-    email: {
-      type: String,
-      unique: true,
-      required: true,
-    },
-    password: {
-      type: String,
-      required: true,
-    },
-    admin: { type: Boolean, default: false },
-    cart: {
-      status: { type: String, default: 'active' },
-      products: [
-        {
-          _id: {
-            type: mongoose.Schema.Types.ObjectId,
-            required: true,
-            ref: 'Product',
-          },
-          name: { type: String, required: true },
-          price: { type: Number, required: true },
-          quantity: { type: Number, required: true },
+    firstName: { type: String, required: true },
+    lastName: { type: String, required: true },
+    maidenName: String,
+    age: Number,
+    gender: String,
+    email: { type: String, required: true },
+    phone: { type: String, required: true },
+    username: { type: String, required: true },
+    password: { type: String, required: true },
+    birthDate: String,
+    image: String,
+    ip: String,
+    address: [
+      {
+        type: { type: String, required: true },
+        address: { type: String, required: true },
+        city: { type: String, required: true },
+        state: { type: String, required: true },
+        stateCode: { type: String, required: true },
+        postalCode: { type: Number, required: true },
+        coordinates: {
+          lat: { type: Number, required: true },
+          lng: { type: Number, required: true },
         },
-      ],
-      quantity: { type: Number, default: 0 },
-      total: { type: Number, default: 0 },
+        country: { type: Number, required: true },
+      },
+    ],
+    bank: [
+      {
+        default: { type: Boolean, required: true },
+        cardExpire: { type: String, required: true },
+        cardNumber: { type: Number, required: true },
+        cardType: { type: String, required: true },
+        currency: { type: String, required: true },
+        iban: { type: String, required: true },
+      },
+    ],
+    company: {
+      department: String,
+      name: String,
+      title: String,
+      address: {
+        address: String,
+        city: String,
+        state: String,
+        stateCode: String,
+        postalCode: Number,
+        coordinates: {
+          lat: Number,
+          lng: Number,
+        },
+        country: String,
+      },
     },
+    crypto: {
+      coin: String,
+      wallet: String,
+      network: String,
+    },
+    role: { type: String, required: true },
   },
   { timestamps: true }
 );
