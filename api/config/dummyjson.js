@@ -2,11 +2,11 @@ import { writeJsonFile } from 'write-json-file';
 
 const dummyJson = async () => {
   try {
-    await fetch('https://dummyjson.com/products')
+    fetch('https://dummyjson.com/carts?limit=10&skip=20')
       .then((res) => res.json())
       .then((data) => {
         // Write the JSON data to a file
-        writeJsonFile('api/config/productdata.json', data);
+        writeJsonFile('api/config/cartdata.json', data);
       })
       .then(console.log('json file created successfully!'));
   } catch (error) {
