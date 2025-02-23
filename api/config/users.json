@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "_id": { "$oid": "679d526c786575f4f51f989f" },
+      "name": "Josh Schmitz",
+      "email": "josh.schmitz1@gmail.com",
+      "password": "$2a$10$pppFiAmk6U6IW7nF3V73JOxYnf5lz65CbXqRqQH5U7kfBhm.DrIXW",
+      "createdAt": { "$date": { "$numberLong": "1738363500262" } },
+      "updatedAt": { "$date": { "$numberLong": "1739677779004" } },
+      "__v": { "$numberInt": "0" },
+      "admin": true
+    },
+    {
+      "_id": { "$oid": "67a7e60482238e13107864e6" },
+      "name": "This",
+      "email": "this@that.com",
+      "password": "$2a$10$Tld6uzdT2YFQ2A8Ji8213uE2iHYBkDPIVef2RZhL3JRao4jSrCu5m",
+      "createdAt": { "$date": { "$numberLong": "1739056644297" } },
+      "updatedAt": { "$date": { "$numberLong": "1739056644297" } },
+      "__v": { "$numberInt": "0" },
+      "admin": false
+    }
+  ]
+}

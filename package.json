@@ -1,0 +1,28 @@
+{
+  "name": "storefront-base",
+  "version": "1.0.0",
+  "description": "Storefront base application to customize and build on.",
+  "main": "main.jsx",
+  "scripts": {
+    "start": "node api/server.js",
+    "server": "nodemon api/server.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Josh Schmitz",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9"
+  }
+}
