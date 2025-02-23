@@ -5,6 +5,10 @@ import connectDB from './config/db.js';
 import { notFound, errorHandler } from './middleware/errors.js';
 import userRoutes from './routes/user.js';
 
+// get json from dummyJSON and write to *data.json file (which is ignored by nodemon when starting the server)
+// import dummyJson from './config/dummyjson.js';
+// dummyJson();
+
 // config
 dotenv.config();
 const app = express();

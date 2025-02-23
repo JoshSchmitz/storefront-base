@@ -5,7 +5,7 @@
   "main": "main.jsx",
   "scripts": {
     "start": "node api/server.js",
-    "server": "nodemon api/server.js",
+    "server": "nodemon --ignore '*data.json' api/server.js",
     "client": "npm run dev --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "concurrently": "^9.1.2",
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "write-json-file": "^6.0.0"
   }
 }
