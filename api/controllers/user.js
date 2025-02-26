@@ -132,4 +132,5 @@ export {
   logoutUser,
   getUserProfile,
   updateUserProfile,
+  deleteUserProfile,
 };
