@@ -4,7 +4,7 @@ import User from '../models/user.js';
 
 /* 
     @desc: Authenticate user
-    @route: POST /api/users/auth
+    @route: POST /api/user/auth
     @access: public
 */
 const authUser = asyncHandler(async (req, res) => {
@@ -27,7 +27,7 @@ const authUser = asyncHandler(async (req, res) => {
 
 /* 
     @desc: Register a new user
-    @route: POST /api/users
+    @route: POST /api/user
     @access: public
 */
 const registerUser = asyncHandler(async (req, res) => {
@@ -60,7 +60,7 @@ const registerUser = asyncHandler(async (req, res) => {
 
 /* 
     @desc: Logout user
-    @route: POST /api/users/logout
+    @route: POST /api/user/logout
     @access: public
 */
 const logoutUser = asyncHandler(async (req, res) => {
@@ -70,7 +70,7 @@ const logoutUser = asyncHandler(async (req, res) => {
 
 /* 
     @desc: Get user profile
-    @route: GET /api/users/profile
+    @route: GET /api/user
     @access: private
 */
 const getUserProfile = asyncHandler(async (req, res) => {
@@ -85,7 +85,7 @@ const getUserProfile = asyncHandler(async (req, res) => {
 
 /* 
     @desc: Update user profile
-    @route: PUT /api/users/profile
+    @route: PUT /api/user
     @access: private
 */
 const updateUserProfile = asyncHandler(async (req, res) => {
@@ -107,6 +107,22 @@ const updateUserProfile = asyncHandler(async (req, res) => {
   } else {
     res.status(404);
     throw new Error('User not found');
+  }
+});
+
+/* 
+    @desc: Delete user
+    @route: DELETE /api/user
+    @access: private
+*/
+const deleteUserProfile = asyncHandler(async (req, res) => {
+  const { userId } = req.params;
+  const user = await Resume.deleteOne({ _id: userId });
+  if (user) {
+    res.status(200).json({ message: 'User profile deleted', _id: userId });
+  } else {
+    res.status(400);
+    throw new Error('Could not delete user');
   }
 });
 
