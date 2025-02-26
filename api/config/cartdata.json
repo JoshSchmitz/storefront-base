@@ -1,0 +1,446 @@
+{
+  "carts": [
+    {
+      "id": 21,
+      "userId": { "$oid": "67bb538e3737bbf0672d4838" },
+      "products": [
+        {
+          "_id": { "$oid": "67bb606c3737bbf0672d4844" },
+          "title": "Red Nail Polish",
+          "price": 8.99,
+          "quantity": 2,
+          "total": 17.98,
+          "discountPercentage": 2.46,
+          "discountedTotal": 13.06,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb60c23737bbf0672d4846" },
+          "title": "Chanel Coco Noir Eau De",
+          "price": 129.99,
+          "quantity": 2,
+          "total": 259.98,
+          "discountPercentage": 18.64,
+          "discountedTotal": 211.43,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Sports%20Sneakers%20Off%20White%20&%20Red/thumbnail.png"
+        }
+      ],
+      "total": 251.96,
+      "discountedTotal": 245.68,
+      "totalProducts": 2,
+      "totalQuantity": 4
+    },
+    {
+      "id": 22,
+      "userId": { "$oid": "67bb551f3737bbf0672d483b" },
+      "products": [
+        {
+          "_id": { "$oid": "67bb66643737bbf0672d4850" },
+          "title": "Beef Steak",
+          "price": 12.99,
+          "quantity": 5,
+          "total": 64.95,
+          "discountPercentage": 17.99,
+          "discountedTotal": 53.26,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Spice%20Rack/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb5f553737bbf0672d4841" },
+          "title": "Eyeshadow Palette with Mirror",
+          "price": 19.99,
+          "quantity": 2,
+          "total": 39.98,
+          "discountPercentage": 0.7,
+          "discountedTotal": 39.7,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb694f3737bbf0672d4859" },
+          "title": "Green Chili Pepper",
+          "price": 0.99,
+          "quantity": 15,
+          "total": 14.85,
+          "discountPercentage": 18.51,
+          "discountedTotal": 12.1,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Plate/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb67723737bbf0672d4856" },
+          "title": "Eggs",
+          "price": 2.99,
+          "quantity": 3,
+          "total": 8.97,
+          "discountPercentage": 9.27,
+          "discountedTotal": 8.14,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/sunglasses/Classic%20Sun%20Glasses/thumbnail.png"
+        }
+      ],
+      "total": 222.88,
+      "discountedTotal": 205.63,
+
+      "totalProducts": 4,
+      "totalQuantity": 12
+    },
+    {
+      "id": 23,
+      "userId": { "$oid": "67bb538e3737bbf0672d4838" },
+      "products": [
+        {
+          "_id": { "$oid": "67bb65f53737bbf0672d484e" },
+          "title": "Wooden Bathroom Sink With Mirror",
+          "price": 1499.99,
+          "quantity": 5,
+          "total": 7499.95,
+          "discountPercentage": 3.9,
+          "discountedTotal": 7207.45,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb61683737bbf0672d4849" },
+          "title": "Gucci Bloom Eau de",
+          "price": 49.99,
+          "quantity": 4,
+          "total": 199.96,
+          "discountPercentage": 8.08,
+          "discountedTotal": 183.8,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb6a3f3737bbf0672d485d" },
+          "title": "Kiwi",
+          "price": 2.49,
+          "quantity": 2,
+          "total": 4.98,
+          "discountPercentage": 2.74,
+          "discountedTotal": 4.84,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Kiwi/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb6a1b3737bbf0672d485c" },
+          "title": "Juice",
+          "price": 1.99,
+          "quantity": 4,
+          "total": 7.96,
+          "discountPercentage": 8.95,
+          "discountedTotal": 7.25,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Juice/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb69d63737bbf0672d485a" },
+          "title": "Honey Jar",
+          "price": 8.99,
+          "quantity": 5,
+          "total": 44.95,
+          "discountPercentage": 18.49,
+          "discountedTotal": 36.64,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Honey%20Jar/thumbnail.png"
+        }
+      ],
+      "total": 7757.8,
+      "discountedTotal": 7439.98,
+
+      "totalProducts": 5,
+      "totalQuantity": 20
+    },
+    {
+      "id": 24,
+      "userId": { "$oid": "67bb538e3737bbf0672d4838" },
+      "products": [
+        {
+          "_id": { "$oid": "67bb66bf3737bbf0672d4852" },
+          "title": "Chicken Meat",
+          "price": 29.99,
+          "quantity": 5,
+          "total": 149.95,
+          "discountPercentage": 14.68,
+          "discountedTotal": 127.94,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Chicken%20Meat/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb670c3737bbf0672d4854" },
+          "title": "Cucumber",
+          "price": 249.99,
+          "quantity": 4,
+          "total": 999.96,
+          "discountPercentage": 5.64,
+          "discountedTotal": 943.56,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Cucumber/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb60fb3737bbf0672d4847" },
+          "title": "Dior J'adore",
+          "price": 599.99,
+          "quantity": 1,
+          "total": 599.99,
+          "discountPercentage": 12.86,
+          "discountedTotal": 522.83,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/thumbnail.png"
+        }
+      ],
+      "total": 1749.9,
+      "discountedTotal": 1594.33,
+
+      "totalProducts": 3,
+      "totalQuantity": 10
+    },
+    {
+      "id": 25,
+      "userId": { "$oid": "67bb54cb3737bbf0672d4839" },
+      "products": [
+        {
+          "_id": { "$oid": "67bb5fc13737bbf0672d4843" },
+          "title": "Red Lipstick",
+          "price": 12.99,
+          "quantity": 1,
+          "total": 12.99,
+          "discountPercentage": 14.69,
+          "discountedTotal": 11.08,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb61913737bbf0672d484a" },
+          "title": "Annibale Colombo Bed",
+          "price": 399.99,
+          "quantity": 1,
+          "total": 399.99,
+          "discountPercentage": 14.38,
+          "discountedTotal": 342.47,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/thumbnail.png"
+        }
+      ],
+      "total": 412.98,
+      "discountedTotal": 353.55,
+
+      "totalProducts": 2,
+      "totalQuantity": 2
+    },
+    {
+      "id": 26,
+      "userId": { "$oid": "67bb55063737bbf0672d483a" },
+      "products": [
+        {
+          "_id": { "$oid": "67bb663c3737bbf0672d484f" },
+          "title": "Apple",
+          "price": 1.99,
+          "quantity": 5,
+          "total": 9.95,
+          "discountPercentage": 8.95,
+          "discountedTotal": 9.06,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Apple/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb62873737bbf0672d484d" },
+          "title": "Knoll Saarinen Executive Conference Chair",
+          "price": 149.99,
+          "quantity": 3,
+          "total": 449.97,
+          "discountPercentage": 3.97,
+          "discountedTotal": 432.11,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Knoll%20Saarinen%20Executive%20Conference%20Chair/thumbnail.png"
+        }
+      ],
+      "total": 459.92,
+      "discountedTotal": 441.17,
+
+      "totalProducts": 2,
+      "totalQuantity": 8
+    },
+    {
+      "id": 27,
+      "userId": { "$oid": "67bb55313737bbf0672d483c" },
+      "products": [
+        {
+          "_id": { "$oid": "67bb66883737bbf0672d4851" },
+          "title": "Cat Food",
+          "price": 4.99,
+          "quantity": 1,
+          "total": 4.99,
+          "discountPercentage": 2.75,
+          "discountedTotal": 4.85,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Cat%20Food/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb67a83737bbf0672d4857" },
+          "title": "Fish Steak",
+          "price": 14.99,
+          "quantity": 2,
+          "total": 29.98,
+          "discountPercentage": 19.87,
+          "discountedTotal": 24.02,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb663c3737bbf0672d484f" },
+          "title": "Apple",
+          "price": 1.99,
+          "quantity": 3,
+          "total": 5.97,
+          "discountPercentage": 11.74,
+          "discountedTotal": 5.27,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Apple/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb6a3f3737bbf0672d485d" },
+          "title": "Kiwi",
+          "price": 29.99,
+          "quantity": 5,
+          "total": 149.95,
+          "discountPercentage": 8.76,
+          "discountedTotal": 136.81,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Kiwi/thumbnail.png"
+        }
+      ],
+      "total": 190.89,
+      "discountedTotal": 170.95,
+
+      "totalProducts": 4,
+      "totalQuantity": 11
+    },
+    {
+      "id": 28,
+      "userId": { "$oid": "67bb538e3737bbf0672d4838" },
+      "products": [
+        {
+          "_id": { "$oid": "67bb5e2f3737bbf0672d483f" },
+          "title": "Essence Mascara Lash Princess",
+          "price": 9.99,
+          "quantity": 5,
+          "total": 49.95,
+          "discountPercentage": 0.63,
+          "discountedTotal": 49.64,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb622b3737bbf0672d484c" },
+          "title": "Bedside Table African Cherry",
+          "price": 39.99,
+          "quantity": 4,
+          "total": 159.96,
+          "discountPercentage": 14.7,
+          "discountedTotal": 136.45,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Bedside%20Table%20African%20Cherry/thumbnail.png"
+        }
+      ],
+      "total": 209.91,
+      "discountedTotal": 186.09,
+
+      "totalProducts": 2,
+      "totalQuantity": 9
+    },
+    {
+      "id": 29,
+      "userId": { "$oid": "67bb55313737bbf0672d483c" },
+      "products": [
+        {
+          "_id": { "$oid": "67bb60c23737bbf0672d4846" },
+          "title": "Chanel Coco Noir Eau De",
+          "price": 1399.99,
+          "quantity": 2,
+          "total": 2799.98,
+          "discountPercentage": 9.99,
+          "discountedTotal": 2520.26,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb61913737bbf0672d484a" },
+          "title": "Annibale Colombo Bed",
+          "price": 49.99,
+          "quantity": 4,
+          "total": 199.96,
+          "discountPercentage": 8.79,
+          "discountedTotal": 182.38,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb682a3737bbf0672d4858" },
+          "title": "Green Bell Pepper",
+          "price": 1.29,
+          "quantity": 2,
+          "total": 2.58,
+          "discountPercentage": 1.2,
+          "discountedTotal": 2.55,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Green%20Bell%20Pepper/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb62873737bbf0672d484d" },
+          "title": "Knoll Saarinen Executive Conference Chair",
+          "price": 199.99,
+          "quantity": 4,
+          "total": 799.96,
+          "discountPercentage": 8.38,
+          "discountedTotal": 732.92,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Knoll%20Saarinen%20Executive%20Conference%20Chair/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb66dd3737bbf0672d4853" },
+          "title": "Cooking Oil",
+          "price": 11.99,
+          "quantity": 5,
+          "total": 59.95,
+          "discountPercentage": 16.05,
+          "discountedTotal": 50.33,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Cooking%20Oil/thumbnail.png"
+        }
+      ],
+      "total": 3862.43,
+      "discountedTotal": 3488.44,
+
+      "totalProducts": 5,
+      "totalQuantity": 17
+    },
+    {
+      "id": 30,
+      "userId": { "$oid": "67bb551f3737bbf0672d483b" },
+      "products": [
+        {
+          "_id": { "$oid": "67bb5fb53737bbf0672d4842" },
+          "title": "Powder Canister",
+          "price": 179.99,
+          "quantity": 1,
+          "total": 179.99,
+          "discountPercentage": 14.21,
+          "discountedTotal": 154.41,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb61d23737bbf0672d484b" },
+          "title": "Annibale Colombo Sofa",
+          "price": 31999.99,
+          "quantity": 4,
+          "total": 127999.96,
+          "discountPercentage": 7.4,
+          "discountedTotal": 118527.96,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb670c3737bbf0672d4854" },
+          "title": "Cucumber",
+          "price": 2.29,
+          "quantity": 4,
+          "total": 9.16,
+          "discountPercentage": 1.69,
+          "discountedTotal": 9.01,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Cucumber/thumbnail.png"
+        },
+        {
+          "_id": { "$oid": "67bb674a3737bbf0672d4855" },
+          "title": "Dog Food",
+          "price": 14.99,
+          "quantity": 4,
+          "total": 59.96,
+          "discountPercentage": 17.65,
+          "discountedTotal": 49.38,
+          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Dog%20Food/thumbnail.png"
+        }
+      ],
+      "total": 128249.07,
+      "discountedTotal": 118740.76,
+
+      "totalProducts": 4,
+      "totalQuantity": 13
+    }
+  ],
+  "total": 50,
+  "skip": 20,
+  "limit": 10
+}

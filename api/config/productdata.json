@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "_id": { "$oid": "67bb5e2f3737bbf0672d483f" },
       "title": "Essence Mascara Lash Princess",
       "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
       "category": "beauty",
@@ -58,7 +58,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
     },
     {
-      "id": 2,
+      "_id": { "$oid": "67bb5f553737bbf0672d4841" },
       "title": "Eyeshadow Palette with Mirror",
       "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
       "category": "beauty",
@@ -113,7 +113,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png"
     },
     {
-      "id": 3,
+      "_id": { "$oid": "67bb5fb53737bbf0672d4842" },
       "title": "Powder Canister",
       "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
       "category": "beauty",
@@ -168,7 +168,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png"
     },
     {
-      "id": 4,
+      "_id": { "$oid": "67bb5fc13737bbf0672d4843" },
       "title": "Red Lipstick",
       "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
       "category": "beauty",
@@ -223,7 +223,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png"
     },
     {
-      "id": 5,
+      "_id": { "$oid": "67bb606c3737bbf0672d4844" },
       "title": "Red Nail Polish",
       "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
       "category": "beauty",
@@ -281,7 +281,7 @@
       "__v": 0
     },
     {
-      "id": 6,
+      "_id": { "$oid": "67bb609f3737bbf0672d4845" },
       "title": "Calvin Klein CK One",
       "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
       "category": "fragrances",
@@ -341,7 +341,7 @@
       "__v": 0
     },
     {
-      "id": 7,
+      "_id": { "$oid": "67bb60c23737bbf0672d4846" },
       "title": "Chanel Coco Noir Eau De",
       "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
       "category": "fragrances",
@@ -401,7 +401,7 @@
       "__v": 0
     },
     {
-      "id": 8,
+      "_id": { "$oid": "67bb60fb3737bbf0672d4847" },
       "title": "Dior J'adore",
       "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
       "category": "fragrances",
@@ -461,7 +461,7 @@
       "__v": 0
     },
     {
-      "id": 9,
+      "_id": { "$oid": "67bb61403737bbf0672d4848" },
       "title": "Dolce Shine Eau de",
       "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
       "category": "fragrances",
@@ -521,7 +521,7 @@
       "__v": 0
     },
     {
-      "id": 10,
+      "_id": { "$oid": "67bb61683737bbf0672d4849" },
       "title": "Gucci Bloom Eau de",
       "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
       "category": "fragrances",
@@ -581,7 +581,7 @@
       "__v": 0
     },
     {
-      "id": 11,
+      "_id": { "$oid": "67bb61913737bbf0672d484a" },
       "title": "Annibale Colombo Bed",
       "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
       "category": "furniture",
@@ -641,7 +641,7 @@
       "__v": 0
     },
     {
-      "id": 12,
+      "_id": { "$oid": "67bb61d23737bbf0672d484b" },
       "title": "Annibale Colombo Sofa",
       "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
       "category": "furniture",
@@ -701,7 +701,7 @@
       "__v": 0
     },
     {
-      "id": 13,
+      "_id": { "$oid": "67bb622b3737bbf0672d484c" },
       "title": "Bedside Table African Cherry",
       "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
       "category": "furniture",
@@ -761,7 +761,7 @@
       "__v": 0
     },
     {
-      "id": 14,
+      "_id": { "$oid": "67bb62873737bbf0672d484d" },
       "title": "Knoll Saarinen Executive Conference Chair",
       "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
       "category": "furniture",
@@ -821,7 +821,7 @@
       "__v": 0
     },
     {
-      "id": 15,
+      "_id": { "$oid": "67bb65f53737bbf0672d484e" },
       "title": "Wooden Bathroom Sink With Mirror",
       "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
       "category": "furniture",
@@ -881,7 +881,7 @@
       "__v": 0
     },
     {
-      "id": 16,
+      "_id": { "$oid": "67bb663c3737bbf0672d484f" },
       "title": "Apple",
       "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
       "category": "groceries",
@@ -938,7 +938,7 @@
       "__v": 0
     },
     {
-      "id": 17,
+      "_id": { "$oid": "67bb66643737bbf0672d4850" },
       "title": "Beef Steak",
       "description": "High-quality beef steak, great for grilling or cooking to your preferred level of doneness.",
       "category": "groceries",
@@ -995,7 +995,7 @@
       "__v": 0
     },
     {
-      "id": 18,
+      "_id": { "$oid": "67bb66883737bbf0672d4851" },
       "title": "Cat Food",
       "description": "Nutritious cat food formulated to meet the dietary needs of your feline friend.",
       "category": "groceries",
@@ -1052,7 +1052,7 @@
       "__v": 0
     },
     {
-      "id": 19,
+      "_id": { "$oid": "67bb66bf3737bbf0672d4852" },
       "title": "Chicken Meat",
       "description": "Fresh and tender chicken meat, suitable for various culinary preparations.",
       "category": "groceries",
@@ -1110,7 +1110,7 @@
       "__v": 0
     },
     {
-      "id": 20,
+      "_id": { "$oid": "67bb66dd3737bbf0672d4853" },
       "title": "Cooking Oil",
       "description": "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
       "category": "groceries",
@@ -1167,7 +1167,7 @@
       "__v": 0
     },
     {
-      "id": 21,
+      "_id": { "$oid": "67bb670c3737bbf0672d4854" },
       "title": "Cucumber",
       "description": "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
       "category": "groceries",
@@ -1224,7 +1224,7 @@
       "__v": 0
     },
     {
-      "id": 22,
+      "_id": { "$oid": "67bb674a3737bbf0672d4855" },
       "title": "Dog Food",
       "description": "Specially formulated dog food designed to provide essential nutrients for your canine companion.",
       "category": "groceries",
@@ -1281,7 +1281,7 @@
       "__v": 0
     },
     {
-      "id": 23,
+      "_id": { "$oid": "67bb67723737bbf0672d4856" },
       "title": "Eggs",
       "description": "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
       "category": "groceries",
@@ -1338,7 +1338,7 @@
       "__v": 0
     },
     {
-      "id": 24,
+      "_id": { "$oid": "67bb67a83737bbf0672d4857" },
       "title": "Fish Steak",
       "description": "Quality fish steak, suitable for grilling, baking, or pan-searing.",
       "category": "groceries",
@@ -1395,7 +1395,7 @@
       "__v": 0
     },
     {
-      "id": 25,
+      "_id": { "$oid": "67bb682a3737bbf0672d4858" },
       "title": "Green Bell Pepper",
       "description": "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
       "category": "groceries",
@@ -1452,7 +1452,7 @@
       "__v": 0
     },
     {
-      "id": 26,
+      "_id": { "$oid": "67bb694f3737bbf0672d4859" },
       "title": "Green Chili Pepper",
       "description": "Spicy green chili pepper, ideal for adding heat to your favorite recipes.",
       "category": "groceries",
@@ -1509,7 +1509,7 @@
       "__v": 0
     },
     {
-      "id": 27,
+      "_id": { "$oid": "67bb69d63737bbf0672d485a" },
       "title": "Honey Jar",
       "description": "Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food.",
       "category": "groceries",
@@ -1566,7 +1566,7 @@
       "__v": 0
     },
     {
-      "id": 28,
+      "_id": { "$oid": "67bb69fb3737bbf0672d485b" },
       "title": "Ice Cream",
       "description": "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
       "category": "groceries",
@@ -1626,7 +1626,7 @@
       "__v": 0
     },
     {
-      "id": 29,
+      "_id": { "$oid": "67bb6a1b3737bbf0672d485c" },
       "title": "Juice",
       "description": "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
       "category": "groceries",
@@ -1683,7 +1683,7 @@
       "__v": 0
     },
     {
-      "id": 30,
+      "_id": { "$oid": "67bb6a3f3737bbf0672d485d" },
       "title": "Kiwi",
       "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
       "category": "groceries",
