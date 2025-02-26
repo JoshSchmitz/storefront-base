@@ -5,6 +5,7 @@ import {
   logoutUser,
   getUserProfile,
   updateUserProfile,
+  deleteUserProfile,
 } from '../controllers/user.js';
 import { protect } from '../middleware/authenticate.js';
 
@@ -12,12 +13,13 @@ import { protect } from '../middleware/authenticate.js';
 const router = express.Router();
 
 // routes
-router.post('/', registerUser);
+router
+  .route('/')
+  .get(protect, getUserProfile)
+  .post(registerUser)
+  .put(protect, updateUserProfile)
+  .delete(protect, deleteUserProfile);
 router.post('/auth', authUser);
 router.post('/logout', logoutUser);
-router
-  .route('/profile')
-  .get(protect, getUserProfile)
-  .put(protect, updateUserProfile);
 
 export default router;
