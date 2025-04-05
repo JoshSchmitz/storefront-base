@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
 import connectDB from './config/db.js';
 import { notFound, errorHandler } from './middleware/errors.js';
+import profileRoutes from './routes/profile.js';
 import userRoutes from './routes/user.js';
 
 // get json from dummyJSON and write to *data.json file (which is ignored by nodemon when starting the server)
@@ -21,7 +22,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 // routes
-app.use('/api/user', userRoutes);
+app.use('/api/user', profileRoutes);
+app.use('/api/users', userRoutes);
 
 // error handlers
 app.use(notFound);

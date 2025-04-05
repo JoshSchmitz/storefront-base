@@ -9,7 +9,7 @@ const userSchema = mongoose.Schema(
     age: Number,
     gender: String,
     email: { type: String, required: true },
-    phone: { type: String, required: true },
+    phone: String,
     username: { type: String, required: true },
     password: { type: String, required: true },
     birthDate: String,
@@ -17,27 +17,27 @@ const userSchema = mongoose.Schema(
     ip: String,
     address: [
       {
-        type: { type: String, required: true },
-        address: { type: String, required: true },
-        city: { type: String, required: true },
-        state: { type: String, required: true },
-        stateCode: { type: String, required: true },
-        postalCode: { type: Number, required: true },
+        type: String,
+        address: String,
+        city: String,
+        state: String,
+        stateCode: String,
+        postalCode: Number,
         coordinates: {
-          lat: { type: Number, required: true },
-          lng: { type: Number, required: true },
+          lat: Number,
+          lng: Number,
         },
-        country: { type: Number, required: true },
+        country: Number,
       },
     ],
     bank: [
       {
-        default: { type: Boolean, required: true },
-        cardExpire: { type: String, required: true },
-        cardNumber: { type: Number, required: true },
-        cardType: { type: String, required: true },
-        currency: { type: String, required: true },
-        iban: { type: String, required: true },
+        default: Boolean,
+        cardExpire: String,
+        cardNumber: Number,
+        cardType: String,
+        currency: String,
+        iban: String,
       },
     ],
     company: {
@@ -57,12 +57,14 @@ const userSchema = mongoose.Schema(
         country: String,
       },
     },
-    crypto: {
-      coin: String,
-      wallet: String,
-      network: String,
-    },
-    role: { type: String, required: true },
+    crypto: [
+      {
+        coin: String,
+        wallet: String,
+        network: String,
+      },
+    ],
+    role: String,
   },
   { timestamps: true }
 );
